@@ -1,0 +1,36 @@
+{
+  "name": "multi_react_poc",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build:app": "webpack --config ./config/webpack/build.app.js --progress --profile",
+    "build:login": "cd login_module && npm run dev && cd ..",
+    "build:graph": "cd graph && npm run dev && cd .."
+  },
+  "dependencies": {
+    "@types/jest": "24.0.23",
+    "@types/node": "12.12.14",
+    "@types/react": "16.9.13",
+    "@types/react-dom": "16.9.4",
+    "babel-loader": "^8.0.6",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0",
+    "react-svg-loader": "^3.0.3",
+    "typescript": "3.7.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  }
+}
