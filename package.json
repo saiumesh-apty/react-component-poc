@@ -8,7 +8,8 @@
   "scripts": {
     "build:app": "webpack --config ./config/webpack/build.app.js --progress --profile",
     "build:login": "cd login_module && npm run dev && cd ..",
-    "build:graph": "cd graph && npm run dev && cd .."
+    "build:graph": "cd graph && npm run dev && cd ..",
+    "build:checkingcli": "cd checkingCLI && npm run dev && cd .."
   },
   "dependencies": {
     "@types/jest": "24.0.23",

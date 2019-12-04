@@ -1,0 +1,3 @@
+1. statik -src=./public
+2. go generate -run -Z
+3. go run main.go
