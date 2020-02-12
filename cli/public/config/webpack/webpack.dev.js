@@ -4,7 +4,7 @@
 process.env.NODE_ENV = 'development';
 const path = require('path');
 const merge = require('webpack-merge');
-const appConfig = require('../../../config/webpack/webpack.app');
+const appConfig = require('../../../config/webpack/webpack-app.dev');
 const outputPath = path.join(process.cwd(), 'build', 'dev');
 const entry = path.join(process.cwd(), 'src', 'index.tsx');
 const appSrc = path.join(process.cwd(), 'src');
